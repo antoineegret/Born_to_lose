@@ -1,0 +1,79 @@
+/*tout sa pour faire une page avec une image de fond et du texte et bouton par dessus
+un hero image sur w3school*/
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Permanent Marker', cursive;
+  }
+
+  input::placeholder{
+      font-family: arial;
+  }
+  /* si je veux avoir une image en fond avec du texte par dessus je doit mettre l'image dans l'élément parent
+  dans ce cas la la div */
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/city.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  /*bouton connexion et inscription dans la page d'accueil */
+
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 2% 8%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(170, 15, 15);
+    text-align: center;
+    cursor: pointer;
+    margin-top: 2vw;
+  }
+
+  /*effet pour rendre les bouton plus rouge vif*/
+  .hero-text button:hover {
+    background-color: rgb(241, 10, 10);
+    color: white;
+  }
+  /*fin du bloc image de fond avec texte et bouton par dessus*/
+
+  h1 {
+      font-size: 8vh;
+  }
+
+  h2 {
+    font-size: 4vh;
+}
+
+/* petit texte qui presente le jeux sur la page d'accueil*/
+#texte_presentation {
+    margin-top: 2vw;
+    font-size: 1.7vw;
+}
+
+/*formulaire dans les modals*/
+ form {
+     text-align: right;
+ }
+
+/*css de la page une fois connecter comme membre*/
+
+ #titre_page1 {
+  font-size: 5vw;
+  margin-top: -20vw;
+ }
+
+ /*bouton inscription dans la modal inscription */
+

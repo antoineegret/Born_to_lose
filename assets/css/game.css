@@ -1,0 +1,39 @@
+body{
+    background-color: #c1b7b7;
+}
+
+#city{
+    height: 50vh;
+    width: 70vw;
+    border: solid black 1vh;
+    float: left;
+}
+
+li{
+    list-style: none;
+    display: inline;  
+}
+ul{
+   display: flex;
+   justify-content: space-between; 
+}
+.eatSVG{
+    height: 5vh;
+    width: 5vw;
+}
+p{
+   font-size: 3vh;
+}
+.navbarButton{
+    font-family: 'Permanent Marker', cursive;
+}
+#navbar{
+    height: 15vh;
+    width: 70vw;
+}
+.production{
+    height: 50vh;
+    width: 15vw;
+    background-color: black;
+    float: left;
+}

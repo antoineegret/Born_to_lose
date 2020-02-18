@@ -1,0 +1,11 @@
+#categories {
+	width:50%;
+}
+#visuel {
+	width:100px;
+	height:120px;
+	border:1px solid gray;
+}
+#visuel img {
+	position:absolute;
+}
