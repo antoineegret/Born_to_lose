@@ -1,67 +1,35 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <!--ligne pour responsive-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <!--ligne pour bootstrap-->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!--liens vers les pages css puis javascript-->
-        <link rel="stylesheet" type="text/css" href="assets/css/game.css">
-        <style>
-            @import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
-        </style>
-        <title>Document</title>
-    </head>
-    <body>
-        <div class="container">
-            <!-- début navbar -->
-            <div id="navbar" class="bg-white">
-                <!-- début navbar partie navigation jeu --> 
-                <ul class="justify-content-center">
-                    <li><button type="button" class="navbarButton">Héro</button></li>
-                    <li><button type="button" class="navbarButton">Quartier</button></li>
-                    <li><button type="button" class="navbarButton">Refuge</button></li>
-                    <li><button type="button" class="navbarButton">Statistique</button></li>
-                    <li><button type="button" class="navbarButton">Message</button></li>
-                </ul>
-                <!-- fin navbar partie navigation jeu -->
-                <!-- début navbar partie ressource -->
-                <div class="mr-5">
-                    <ul class="stock">
-                    <li><p>Dépôt de ressources : </p></li>
-                    <li><img src="assets/img/fruit.svg" class="eatSVG" alt="Stock nourriture"></li>
-                    <li><img src="assets/img/water.svg" class="eatSVG" alt="Stock eau"></li>
-                    <li><img src="assets/img/chip.svg" class="eatSVG" alt="Consommation eau"></li>
-                </ul>
-                </div>
-                <!-- fin navbar partie ressource -->
-            </div>
-            <!-- fin navbar -->
-            <img src="assets/img/city.jpg" id="city" alt="city"/>
-            <div class="production text-white">
-                <ul>
-                    <li>Productions :</li>
-                </ul>
-                <ul>
-                    <li>Nourriture</li>
-                </ul>
-                <ul>
-                    <li>Eau</li>
-                </ul>
-                
-            </div>
-        </div>
-        <!--lien vers fichier javascript pour faire du jquery-->
-        <script src="assets/js/jquery-3.3.1.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
-        </script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
-        </script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
-        </script>
-        <script src="assets/js/script.js"></script>
-    </body>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/game.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Born to lose</title>
+  </head>
+  <body>
+    <h1>Born to lose</h1>
+<div class="hero-image col-sm-12">
+    <div class="hero-text">
+        <svg width="80%" height="80%" xmlns="http://www.w3.org/2000/svg" class="back" viewBox="0 0 684 400"> 
+                <a href="gameHouse.php">
+                     <rect x="540" y="275" width="30" height="50" stroke="red" fill="transparent"/> <!-- ici on donne la position et la taille des bouton transparent -->
+                </a>
+        <a href="gamePub.php">
+                     <rect x="0" y="275" width="140" height="45" stroke="red" fill="transparent"/> <!-- ici on donne la position et la taille des bouton transparent -->
+                </a>
+        <a>
+            <circle /> <!-- ici on donne la position et la taille des bouton transparent -->
+                </a>
+            </svg>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
 </html>

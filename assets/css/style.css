@@ -9,10 +9,13 @@ body, html {
   input::placeholder{
       font-family: arial;
   }
+  label{
+    font-family: Arial, Helvetica, sans-serif;
+  }
   /* si je veux avoir une image en fond avec du texte par dessus je doit mettre l'image dans l'élément parent
   dans ce cas la la div */
   .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/city.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/zombieCity.svg");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -75,5 +78,8 @@ body, html {
   margin-top: -20vw;
  }
 
- /*bouton inscription dans la modal inscription */
-
+.erreurs
+{
+    color: red;
+}
+ 

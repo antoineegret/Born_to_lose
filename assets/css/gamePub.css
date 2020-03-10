@@ -1,0 +1,25 @@
+/*tout sa pour faire une page avec une image de fond et du texte et bouton par dessus
+un hero image sur w3school*/
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Permanent Marker', cursive;
+  }
+
+  input::placeholder{
+      font-family: arial;
+  }
+  label{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /* si je veux avoir une image en fond avec du texte par dessus je doit mettre l'image dans l'élément parent
+  dans ce cas la la div */
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../img/gamePub.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
